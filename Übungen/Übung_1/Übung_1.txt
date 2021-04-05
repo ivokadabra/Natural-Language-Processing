@@ -1,0 +1,18 @@
+Aufgabe 1.1
+1) [A-Za-z]
+2)[Dd]ie|der|das
+3)^[0-9].*[A-Za-z]{3,}$
+4).*[^\.]*$
+5)^[+][0-9]{12}+
+6).*[@][stud]*[.]*[hn]*[.][de]*
+7)19[0-9]{2}|20[1-9]{2}
+8)^[0-9]{1,2}.[0-9]{1,2}.[0-9]{2,4}\d
+9)<(.*)>(.|\n)*?<\/\1>
+
+Aufgabe 1.2
+import re
+s1 = "Herr Josef Meier kann auch als J. oder Joseph oder Jupp oder Sepp bennen.Mayer , Maier und M. sind die andere Altenativen"
+p = re.findall(r"[JS][.|ose|u]*[pfh]*|M[ae][iy][ea]?r|M[.]", s1,re.DOTALL)
+#print(p.group(1))
+for i in p:
+    print(i)
