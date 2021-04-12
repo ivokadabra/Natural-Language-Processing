@@ -1,0 +1,4 @@
+Wordform: Form eines Wortes
+Lemma: Lemma ist die Form eines Wortes, unter dem es in einem Wörterbuch registriert ist.
+Token:Gesamtzahl der Wörter in einem Text
+Type:Anzahl der verschiedenen Wörter in einem Text
