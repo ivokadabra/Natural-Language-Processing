@@ -1,0 +1,19 @@
+Layer 1:
+z=w11.x1+w12.x2+b1=1.8+3.(-5)+10=3 =>a=1
+z=w21.x1+w22.x2+b2=1.8+2.(-5)+3= 1 =>a=1
+Layer 2:
+z=w11.x1+w12.x2+b=-1.1+2.1 + 2= 3 => a=1
+
+LCE=0
+
+----------------------------------------------------------
+Layer 2:
+dL/a= -1 
+
+dL/z=dL/da .da/dz= -1.0=0
+
+dL/w11=dL/da .da/dz . dz/dw11= 0
+dL/w12=dL/da .da/dz . dz/dw12= 0
+dL/b=dL/da .da/dz . dz/db= 0
+..... the rest are 0 as well
+ 
